@@ -28,13 +28,17 @@
 <nav class="nav-fixed nav-transparent" id="navbar">
   <div class="nav-inner">
     <a href="/" class="logo">conversation<span class="logo-accent">.</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="nav-menu">
       <li><a href="/services/meta-ads.html">Meta Ads</a></li>
       <li><a href="/services/google-ads.html">Google Ads</a></li>
       <li><a href="/services/seo.html">SEO</a></li>
       <li><a href="/about.html">About</a></li>
+      <li><a href="/blog.html">Blog</a></li>
       <li><a href="/contact.html" class="nav-cta">Get In Touch</a></li>
     </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -180,6 +184,9 @@ window.addEventListener('scroll', function() {
   var nav = document.getElementById('navbar');
   if (window.scrollY > 50) { nav.classList.add('nav-scrolled'); nav.classList.remove('nav-transparent'); }
   else { nav.classList.remove('nav-scrolled'); nav.classList.add('nav-transparent'); }
+});
+document.getElementById('nav-toggle').addEventListener('click', function() {
+  document.getElementById('nav-menu').classList.toggle('nav-open');
 });
 </script>
 </body>
