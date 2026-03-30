@@ -1,16 +1,16 @@
 # Old WordPress service pages
-/what-we-do/ /services/meta-ads.html 301
-/what-we-do/facebook-advertising-agency/ /services/meta-ads.html 301
-/what-we-do/gold-coast-google-ads-agency/ /services/google-ads.html 301
+/what-we-do/ /services/meta-ads 301
+/what-we-do/facebook-advertising-agency/ /services/meta-ads 301
+/what-we-do/gold-coast-google-ads-agency/ /services/google-ads 301
 /what-we-do/direct-response-copywriting/ / 301
 
 # Old WordPress pages (without .html extension)
-/about/ /about.html 301
-/contact/ /contact.html 301
-/blog/ /blog.html 301
+/about/ /about 301
+/contact/ /contact 301
+/blog/ /blog 301
 
 # Old service URLs without trailing slash
-/what-we-do /services/meta-ads.html 301
-/what-we-do/facebook-advertising-agency /services/meta-ads.html 301
-/what-we-do/gold-coast-google-ads-agency /services/google-ads.html 301
+/what-we-do /services/meta-ads 301
+/what-we-do/facebook-advertising-agency /services/meta-ads 301
+/what-we-do/gold-coast-google-ads-agency /services/google-ads 301
 /what-we-do/direct-response-copywriting / 301
