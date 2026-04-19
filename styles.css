@@ -192,6 +192,9 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text-dark); }
 
 /* ─── SERVICES GRID ─── */
 .services-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+}
+.services-grid-3 {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px;
 }
 .service-card {
@@ -230,6 +233,16 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text-dark); }
   transition: color 0.2s;
 }
 .service-link:hover { color: var(--accent-light); }
+
+.service-card-featured {
+  border-color: var(--accent); position: relative;
+}
+.service-card-featured::before {
+  content: 'New'; position: absolute; top: 20px; right: 20px;
+  background: var(--accent); color: var(--navy); font-size: 11px;
+  font-weight: 700; padding: 4px 10px; border-radius: 4px;
+  letter-spacing: 0.5px; text-transform: uppercase;
+}
 
 /* ─── PROCESS ─── */
 .process-grid {
@@ -443,6 +456,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text-dark); }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
+  .services-grid-3 { grid-template-columns: 1fr; }
   .credentials-inner { flex-direction: column; gap: 24px; }
   .footer-inner { flex-direction: column; }
   .footer-links { flex-direction: column; gap: 32px; }

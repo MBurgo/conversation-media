@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Marketing Systems | Conversation Media</title>
+  <meta name="description" content="Custom AI-powered marketing tools — compliance checkers, content research engines, copy drafting systems, and workflow automation. Built by a marketer, for marketers.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav-fixed nav-transparent" id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="logo">conversation<span class="logo-accent">.</span></a>
+    <ul class="nav-links" id="nav-menu">
+      <li><a href="/#services">Services</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact" class="nav-cta">Get In Touch</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-hero-label">AI Marketing Systems</div>
+    <h1>Marketing tools built by a marketer, not an engineer.</h1>
+    <p>Custom AI systems that make your marketing team faster, more consistent, and more effective — designed around how you actually work.</p>
+  </div>
+</section>
+
+<!-- DETAIL -->
+<section class="section section-bg-white">
+  <div class="section-inner">
+    <div class="service-detail">
+      <h2>The problem</h2>
+      <p>Most marketing teams know AI could help them, but they're stuck between two bad options: generic SaaS tools that don't fit their workflow, or hiring a developer who doesn't understand marketing. The result is either shelfware nobody uses, or tools that technically work but solve the wrong problem.</p>
+      <p>I'm a marketing strategist who also builds software. I've spent the last two years designing and shipping AI-powered tools for a financial services marketing team — in a regulated industry where getting it wrong has real consequences. These aren't experiments. They're production systems used daily by real teams.</p>
+
+      <h2>What I build</h2>
+      <p>Every system is custom-designed for your team's specific needs. Here are examples of the kinds of tools I've built:</p>
+      <ul>
+        <li><strong>Compliance and regulatory checkers</strong> — AI systems that review marketing copy against regulatory frameworks (ASIC, AFSL, industry-specific rules) and flag issues before they reach a compliance officer. Reduces review cycles and catches problems human reviewers miss.</li>
+        <li><strong>Content intelligence and research tools</strong> — Systems that scan the market, identify trending topics, and assess content opportunities — with source attribution verification built in so your team can trust the outputs.</li>
+        <li><strong>Copy drafting engines</strong> — AI agents trained on your brand's voice, methodology, and compliance requirements. They produce structured first drafts of emails, ad copy, subject lines, and landing pages that your copywriter can refine rather than write from scratch.</li>
+        <li><strong>Workflow automation</strong> — Structured daily and weekly marketing workflows encoded into repeatable systems — ad performance monitoring, creative refresh triggers, audience reviews, and reporting rhythms.</li>
+        <li><strong>Hook and angle discovery</strong> — Systems that scan market news, classify opportunities through proven copywriting frameworks, and surface timely angles your team would otherwise miss.</li>
+      </ul>
+
+      <h2>How it works</h2>
+      <p>I start by sitting with your team to understand their actual workflow — not their idealised one. What takes too long? Where do they make mistakes? What decisions require expertise that's hard to scale? Then I design and build a tool that addresses that specific bottleneck.</p>
+      <p>Most builds are deployable web apps (not complex infrastructure) that run on modern hosting platforms like Cloudflare Pages or Vercel. They don't require your IT team to maintain. They're designed to be used by marketers, not engineers.</p>
+      <p>Typical engagement: 2–4 weeks from scoping to a working tool your team can use.</p>
+
+      <h2>Who this is for</h2>
+      <p>This is best suited for marketing teams in subscription businesses, financial services, or other regulated industries — teams where compliance matters, where copy quality is a revenue lever, and where the marketing leader knows AI could help but doesn't have the technical skills to make it happen.</p>
+      <p>It also works well for smaller teams that need to punch above their weight. If you've got 2–5 marketers doing the work of 10, AI systems can close that gap.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section-bg-off-white cta-section">
+  <div class="cta-inner">
+    <div class="section-label">Get Started</div>
+    <h2>Let's talk about what you need built.</h2>
+    <p>Tell me what's slowing your team down, and I'll tell you whether an AI system can fix it — and how long it would take.</p>
+    <a href="/contact" class="btn-primary">Get In Touch</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="logo">conversation<span class="logo-accent">.</span></a>
+      <p>Acquisition marketing consulting for businesses that want to grow profitably.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="/services/ai-systems">AI Marketing Systems</a>
+        <a href="/services/fractional-marketing">Fractional Marketing</a>
+        <a href="/services/paid-media">Paid Media</a>
+        <a href="/services/seo">SEO Audits</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Conversation Media. All rights reserved. Gold Coast, Queensland, Australia.</div>
+</footer>
+
+<script>
+window.addEventListener('scroll', function() {
+  var nav = document.getElementById('navbar');
+  if (window.scrollY > 50) { nav.classList.add('nav-scrolled'); nav.classList.remove('nav-transparent'); }
+  else { nav.classList.remove('nav-scrolled'); nav.classList.add('nav-transparent'); }
+});
+document.getElementById('nav-toggle').addEventListener('click', function() {
+  document.getElementById('nav-menu').classList.toggle('nav-open');
+});
+</script>
+</body>
+</html>
